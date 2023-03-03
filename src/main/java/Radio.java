@@ -11,7 +11,7 @@ public class Radio {
     }
 
     public void increaseVolume() {
-        if (volume < 10) {
+        if (volume < 100) {
             volume++;
         }
         System.out.println("volume = " + volume);
